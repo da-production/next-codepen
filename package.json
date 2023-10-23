@@ -9,11 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/lang-html": "^6.4.5",
+    "@codemirror/lang-javascript": "^6.1.9",
+    "@codemirror/lang-less": "^6.0.1",
+    "@uiw/codemirror-theme-github": "^4.21.9",
+    "@uiw/codemirror-theme-sublime": "^4.21.9",
+    "@uiw/react-codemirror": "^4.21.9",
+    "animejs": "^3.2.1",
     "autoprefixer": "10.4.14",
+    "codemirror": "^6.0.1",
     "next": "13.4.13",
     "postcss": "8.4.27",
     "react": "18.2.0",
+    "react-codemirror2": "^7.2.1",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss-animate": "^1.0.6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
